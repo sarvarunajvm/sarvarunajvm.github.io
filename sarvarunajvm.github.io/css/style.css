@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+
+.vt233 {
+  font-family: 'VT323', monospace;
+  font-weight: bold;
+}
+
+.majorMono {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.fontColorDark{
+  color : #c25054;
+}
+
+.fontColorLight{
+  color : #ffb1af;
+}
+
+.fontColorPrimary{
+  color : #f98080;
+}
+
+.fontColorSecDark{
+  color : #2a2d32;
+}
+
+.fontColorSecLight{
+  color : #7e8388;
+}
+
+.fontColorSecodary{
+  color : #52565b;
+}
+
+
+.bgColorDark{
+  background-color:#c25054;
+  color : #2a2d32;
+}
+
+.bgColorLight{
+  background-color:#ffb1af;
+  color : #7e8388;
+}
+
+.bgColorPrimary{
+  background-color : #f98080;
+  color : #52565b;
+}
+
+.bgColorSecDark{
+  background-color:#2a2d32;
+  color : #c25054;
+}
+
+.bgColorSecLight{
+  background-color:#7e8388;
+  color : #ffb1af;
+}
+
+.bgColorSecodary{
+  background-color:#52565b;
+  color : #f98080;
+}
+
+.rightAbsolute {
+  position: absolute;
+  float: right;
+  right: 14%;
+  top: 40%;
+  width: 50%;
+}
+
+.toggle{
+  transition: all .1s ease-in;
+  animation-duration: 3s;
+  animation-name: fade;
+}
+@keyframes fade{
+  0%{ opacity: 0; }
+  100%{ opacity: 1;}
+}
+
+.f6{
+  font-size: 6rem;
+}
+
+.f5{
+  font-size: 5rem;
+}
+
+.f4{
+  font-size: 4rem;
+}
+
+.f3{
+  font-size: 3rem;
+}
+
+.f2{
+  font-size: 2rem;
+}
+
+.f1{
+  font-size: 1rem;
+}
+
+.mx-auto{
+  margin: auto;
+}
