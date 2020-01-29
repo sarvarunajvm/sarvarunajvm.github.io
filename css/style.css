@@ -110,3 +110,24 @@
 .mx-auto{
   margin: auto;
 }
+
+.map-container {
+  height: 200px;
+  position: relative;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.br-1{
+  border-radius: 1%;
+}
+
+.br-2{
+  border-radius: 2%;
+}
